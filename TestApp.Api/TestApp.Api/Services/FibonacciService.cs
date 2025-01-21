@@ -63,6 +63,7 @@ namespace TestApp.Api.Services
                     }
                 }
 
+                fibonacci.Number = fibonacciParams.Number;
                 response.Add(fibonacci);
                 return response;
             }
